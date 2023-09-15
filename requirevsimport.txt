@@ -1,0 +1,10 @@
+require is the default way of loading the modules from another file.
+Require is synchronous operation which means the code below require will not be executed until the module has been loaded. 
+Which is why if you're loading a module and using it, import before using.
+Require is part of common js 
+Require generally loads the entire modules in a file at once.
+
+Import is part of ES6 modules. It can be initialized in node js by setting type="module" in package.json.
+Import is asynchronous and the code after import can also be executed.
+Import is not default module of node.js, it can be used by using extension .mjs
+Import can also import individual functions within a file.
